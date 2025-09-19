@@ -2,7 +2,6 @@ import { Link } from 'expo-router';
 import { openBrowserAsync } from 'expo-web-browser';
 import { Platform } from 'react-native';
 
-
 export function ExternalLink({ href, ...rest }) {
   return (
     <Link
@@ -19,4 +18,4 @@ export function ExternalLink({ href, ...rest }) {
       }}
     />
   );
-}
+} 
